@@ -43,6 +43,21 @@ MEYNET Léo - DEVILLEBICHOT Robin
   
   > 8. Utilisez la commande `vgextend <nom_vg> <nom_pv>` pour ajouter le nouveau disque au groupe de volumes.  
   
-  > 9. Utilisez la commande `lvresize` (ou `lvextend`) pour agrandir le volume logique. Enfin, il ne faut pasoublier de redimensionner le système de fichiers à l’aide de la commanderesize2fs.
+  > 9. Utilisez la commande `lvresize` (ou `lvextend`) pour agrandir le volume logique. Enfin, il ne faut pas oublier de redimensionner le système de fichiers à l’aide de la commande `resize2fs`.
 
 ## Exercice 3: Exécution de commandes en différé : 'at' et 'cron'
+  > 1. Programmez une tâche qui affiche un rappel pour la réunion qui aura lieu dans 3 minutes. Vérifiezentre temps que la tâche est bien programmée.  
+  
+  > 2. Est-ce que le message s’est affiché? Si la réponse est non, essayez de trouver la cause du problème (parexemple en vous aidant des logs, du manuel...).  
+  
+  > 3. Pour tester le fonctionnement decron, commencez par programmer l’exécution d’une tâche simple,l’affichage de “Il faut réviser pour l’examen!”, toutes les 3 minutes.  
+  
+  > 4. Programmez l’exécution d’une commande tous les jours, toute l’année, tous les quarts d’heure.  
+  
+  > 5. Programmez l’exécution d’une commande toutes les cinq minutes à partir de 2 (2, 7, 12, etc.) à 18heures les 1er et 15 du mois.  
+  
+  > 6. Programmez l’exécution d’une commande du lundi au vendredi à 17 heures.  
+  
+  > 7. Modifiez votre crontab pour que les messages ne soient plus envoyés par mail, mais redirigés dans un fichier de log situé dans votre dossier personnel.  
+  
+  > 8. Videz votre crontab  
