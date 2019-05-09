@@ -5,7 +5,8 @@ MEYNET Léo - DEVILLEBICHOT Robin
   > 1. Dans l’interface de configuration de votre VM, créez un second disque dur, de 5 Go dynamiquement alloués; puis démarrez la VM.
   > 2. Vérifiez que ce nouveau disque dur est bien détecté par le système.
   > 3. Partitionnez ce disque en utilisant `fdisk`: créez une première partition de 2 Go de type Linux(n°83), et une seconde partition de 3 Go en NTFS(n°7).  
-  On vérifie tout d'abord que le disque est présent.
+  
+  On vérifie tout d'abord que le disque est présent à l'aide la commande `fdisk -l`.
   
   > 4. A ce stade, les partitions ont été créées, mais elles n’ont pas été formatées avec leur système de fichiers.A l’aide de la commande `mkfs`, formatez vos deux partitions (pensez à consulter le manuel!).
   
