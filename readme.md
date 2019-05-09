@@ -1,5 +1,5 @@
 # TP6 - Gestion des disques / Tâches d’administration
-MEYNET Léo - DEVILLEBICHOT Robin
+MEYNET Léo - DEVILLEBICHOT Robin 
 
 ## Exercice 1: Disques et partitions
   > 1. Dans l’interface de configuration de votre VM, créez un second disque dur, de 5 Go dynamiquement alloués; puis démarrez la VM.
