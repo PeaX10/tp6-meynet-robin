@@ -7,7 +7,7 @@ MEYNET Léo - DEVILLEBICHOT Robin
   > 3. Partitionnez ce disque en utilisant `fdisk`: créez une première partition de 2 Go de type Linux(n°83), et une seconde partition de 3 Go en NTFS(n°7).  
   
   On vérifie tout d'abord que le disque est présent à l'aide la commande `fdisk -l`.
-  ![Ex1 Q3](/img/Ex1_3.png)
+  ![Ex1 Q3](./img/Ex1_3.png)
   
   > 4. A ce stade, les partitions ont été créées, mais elles n’ont pas été formatées avec leur système de fichiers.A l’aide de la commande `mkfs`, formatez vos deux partitions (pensez à consulter le manuel!).
   
